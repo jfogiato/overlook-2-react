@@ -1,5 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class LoginPage extends Component {
+function LoginPage() {
   
+  return (
+    <section className='login-page'>
+      
+    </section>
+  );
 }
