@@ -1,0 +1,11 @@
+:root {
+  --background-image-path: url("https://thumbs.dreamstime.com/b/pink-plastered-concrete-wall-texture-painted-built-structure-grungy-uneven-plaster-abstract-background-shabby-155634485.jpg");
+  --primary-purple: #510056;
+  --primary-gold: #e3bc66;
+  --primary-pink: #fcc3d3;
+  --secondary-pink: #ffdbe9;
+}
+
+.App {
+  text-align: center;
+}
