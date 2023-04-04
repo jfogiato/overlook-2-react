@@ -4,35 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: var(--background-image-path);
 }
 
 .login-logo {
   object-fit: contain;
   height: 30vh;
   margin: 1em;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-}
-
-.login-form > label,
-.filter-form > label,
-.date-selection > label {
-  background: #fcc3d38f;
-  padding: 0.3vmin;
-  border-radius: 5px;
-}
-
-.login-form > input {
-  margin: 1vmin;
-  margin-bottom: 2vmin;
-  width: 15vmin;
-  text-align: center;
 }
 
 @keyframes shake {
@@ -59,19 +37,4 @@
   background: #d3d3d380;
   padding: 0.5vmin;
   border-radius: 20px;
-}
-
-button {
-  border-radius: 3px;
-  background-color: #510056;
-  color: #e3bc66;
-  width: 12vmin;
-  height: 4vmin;
-  transition: background-color 1s;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #e3bc66;
-  color: #510056;
 }

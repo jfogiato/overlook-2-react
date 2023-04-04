@@ -1,0 +1,22 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.login-form > label,
+.filter-form > label,
+.date-selection > label {
+  background: #fcc3d38f;
+  padding: 0.3vmin;
+  border-radius: 5px;
+}
+
+.login-form > input {
+  margin: 1vmin;
+  margin-bottom: 2vmin;
+  width: 15vmin;
+  text-align: center;
+}
